@@ -58,6 +58,10 @@ the swapped element may also be equal to the target and must be checked again.
 Instead of physically shrinking the array, I keep track of the valid portion of the array using the variable n. 
 Each time I remove a target element, I replace it with the last unchecked element and reduce n. At the end, 
 'n' represents the number of valid elements remaining.
+
+I maintain a variable n that represents the effective size of the array.
+Whenever I remove a target element, I reduce n.
+The loop runs while i < n so that we only process the valid portion of the array.
 */
 
 public class RemoveElement {
