@@ -54,6 +54,10 @@ last unchecked element in the array.
 This avoids shifting elements left, which would be costly.
 After replacement, I do not move the pointer immediately because
 the swapped element may also be equal to the target and must be checked again.
+
+Instead of physically shrinking the array, I keep track of the valid portion of the array using the variable n. 
+Each time I remove a target element, I replace it with the last unchecked element and reduce n. At the end, 
+'n' represents the number of valid elements remaining.
 */
 
 public class RemoveElement {
