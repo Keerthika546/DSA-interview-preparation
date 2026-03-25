@@ -23,3 +23,4 @@ This folder contains array-based interview problems solved in Java.
 - When you need to search repeatedly inside an array, use HashMap to reduce O(n) to O(1)
 - Two Pointers works best on sorted arrays
 - Always think brute force first, then optimize
+- Use HashSet when you only need existence check, use HashMap when you need to store index or value
