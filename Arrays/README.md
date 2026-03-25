@@ -17,6 +17,7 @@ This folder contains array-based interview problems solved in Java.
 | 2 | Move Zeroes | #283 | Two Pointers | Easy | O(n) | O(1) |
 | 3 | Remove Element | #27 | Two Pointers | Easy | O(n) | O(1) |
 | 4 | Two Sum | #1 | HashMap + Array | Easy | O(n) | O(n) |
+| 5 | Contains Duplicate | #217 | HashSet | Easy | O(n) | O(n) |
 
 ## Key Learnings
 - When you need to search repeatedly inside an array, use HashMap to reduce O(n) to O(1)
